@@ -1,8 +1,16 @@
 name: PR Labeler
 on:
   pull_request:
-    types: [opened]
-
+    types:
+      - labeled
+      - unlabeled
+      - synchronize
+      - opened
+      - edited
+      - ready_for_review
+      - reopened
+      - unlocked
+  status: {}
 jobs:
   pr-labeler:
     runs-on: ubuntu-latest
