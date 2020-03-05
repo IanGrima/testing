@@ -1,2 +1,2 @@
 automerge:
-  title: "^sync:.*to.*"
+  title: "^automated sync:.*to.*"
