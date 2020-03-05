@@ -19,6 +19,6 @@ jobs:
         id: pull
         uses: TreTuna/sync-branches@v1
         with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.ACTIONS_SECRET}}
           FROM_BRANCH: "master"
           TO_BRANCH: "release"
