@@ -3,6 +3,10 @@ on:
   pull_request:
     types:
       - opened
+      - synchronize
+      - edited
+      - reopened
+      - unlocked
 jobs:
   build:
      runs-on: ubuntu-latest
