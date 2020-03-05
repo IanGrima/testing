@@ -1,0 +1,3 @@
+automerge:
+  title: "^sync:.*to.*"
+  mergeable: true
