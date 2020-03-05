@@ -1,3 +1,3 @@
 # testing
 
-test 2 joe
+test 2 jre
