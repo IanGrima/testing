@@ -1,3 +1,3 @@
 # testing
 
-test 3 jre
+test 4 jre
